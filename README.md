@@ -1,16 +1,43 @@
-# React + Vite
+📊 Finance Dashboard
+A modern, responsive finance dashboard for tracking income, expenses, and spending patterns with role-based access control.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+Dashboard Overview – Balance, Income, Expense summary cards
 
-Currently, two official plugins are available:
+Visualizations – Spending pie chart, weekly trend bar chart, monthly comparison line chart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Transaction Management – Add, edit, delete transactions (Admin only)
 
-## React Compiler
+Search & Filter – Search by description, filter by type/category/date range, sort by date/amount
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Role-Based UI – Toggle between Admin (full control) and Viewer (read-only)
 
-## Expanding the ESLint configuration
+Insights – Highest spending, monthly trend, savings rate, daily average
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Export – Download transactions as CSV or JSON
+
+Dark Mode – Toggle light/dark theme with persistence
+
+Responsive – Works on desktop, tablet, and mobile
+
+🛠️ Tech Stack
+React 18 + Vite
+
+Tailwind CSS
+
+Zustand (state management)
+
+Recharts (data visualization)
+
+Lucide React (icons)
+
+🚀 Quick Start
+bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
