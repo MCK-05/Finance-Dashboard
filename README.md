@@ -1,6 +1,7 @@
 📊 Finance Dashboard
 A modern, responsive finance dashboard for tracking income, expenses, and spending patterns with role-based access control.
 https://finance-dashboard-mu-inky.vercel.app/
+
 ✨ Features
 Dashboard Overview – Balance, Income, Expense summary cards
 
